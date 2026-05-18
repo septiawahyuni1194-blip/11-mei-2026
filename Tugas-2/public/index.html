@@ -1,55 +1,101 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
+    <title>Portofolio Septia</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>PORTOFOLIO : </h1>
-        <p> SEPTIA WAHYUNI </p>
-    </header>
-    <main>
-        <section class="about">
-            <h2>Tentang Saya</h2>
-            <p>Saya Septia Wahyuni, mahasiswi yang terdaftar dan aktif pada 
-            DIV Teknik Elektronika Industri Jurusan Teknik Elektro 
-            Politeknik Negeri Padang angkatan 2023.</p>
-        </section>
-        <section class="Data Diri">
-            <h2>Data Diri</h2>
-            <ul>
-            <li>Nama : Septia Wahyuni</li>
-            <li>NIM : 2311011027</li>
-            <li>Tempat, Tanggal Lahir : Sibolga, 11 September 2004</li>
-            <li>Pendidikan : Politeknik Negeri Padang</li>
-            <li>Jurusan : Teknik Elektro</li>
-            <li>Program Studi : DIV Teknik Elektronika Industri</li>
-        </ul>
-                <h3>Pengalaman</h3>
-                <ul>
-            <li>
-                Cybertech  
-                Politeknik Negeri Padang 
-                sebagai Staff ahli CIM
-            </li>
-            <li>Magang Mandiri PLN bagian ULP perencanaan</li>
-        </ul>
 
-        <h3>Bidang Minat</h3>
-        <ul>
-            <li>Otomasi Industri</li>
-            <li>PLC</li>
-            <li>Internet of Things (IoT)</li>
-            <li>Pemrograman</li>
-            <li>Robotika</li>
-        </ul>
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- FOTO PROFILE -->
+        <img src="foto.jpg" alt="Foto Profil" class="profile">
+
+        <h1>PORTOFOLIO</h1>
+        <p>SEPTIA WAHYUNI</p>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- TENTANG SAYA -->
+        <section class="card">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Saya Septia Wahyuni, mahasiswi aktif Program Studi 
+                DIV Teknik Elektronika Industri Jurusan Teknik Elektro 
+                Politeknik Negeri Padang angkatan 2023.
+            </p>
         </section>
+
+        <!-- DATA DIRI -->
+        <section class="card">
+
+            <h2>Data Diri</h2>
+
+            <ul>
+                <li><strong>Nama :</strong> Septia Wahyuni</li>
+                <li><strong>NIM :</strong> 2311011027</li>
+                <li><strong>TTL :</strong> Sibolga, 11 September 2004</li>
+                <li><strong>Pendidikan :</strong> Politeknik Negeri Padang</li>
+                <li><strong>Jurusan :</strong> Teknik Elektro</li>
+                <li><strong>Program Studi :</strong> DIV Teknik Elektronika Industri</li>
+            </ul>
+
+        </section>
+
+        <!-- PENGALAMAN -->
+        <section class="card">
+
+            <h2>Pengalaman</h2>
+
+            <ul>
+                <li>
+                    Staff Ahli CIM Cybertech 
+                    Politeknik Negeri Padang
+                </li>
+
+                <li>
+                    Magang Mandiri PLN 
+                    bagian ULP Perencanaan
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- BIDANG MINAT -->
+        <section class="card">
+
+            <h2>Bidang Minat</h2>
+
+            <div class="skill-container">
+                <span class="skill">Otomasi Industri</span>
+                <span class="skill">PLC</span>
+                <span class="skill">IoT</span>
+                <span class="skill">Pemrograman</span>
+                <span class="skill">Robotika</span>
+            </div>
+
+        </section>
+
     </main>
+
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Dibuat dengan Express.js</p>
+        <p>&copy; 2026 | Dibuat oleh Septia Wahyuni</p>
     </footer>
+
 </body>
 </html>
